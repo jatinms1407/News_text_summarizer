@@ -74,7 +74,7 @@ http://localhost:8501
 
 🌐 Public App Link
 
-http://192.168.1.6:8501
+https://jatinms1407-news-text-summarizer-summarizer-espdqv.streamlit.app/
 
 Access the Text Summarizer App Online
 
