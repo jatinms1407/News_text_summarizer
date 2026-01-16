@@ -9,7 +9,7 @@ class TextSummarizer:
     def __init__(self, model_name="models/gemini-flash-latest"):
         self.model_name = model_name
 
-        # 👇 Put your key directly here for now
+        
         API_KEY = "Your_key_here"
 
         self.client = genai.Client(api_key=API_KEY)
@@ -37,4 +37,5 @@ class TextSummarizer:
         )
 
         return response.text
+
 
