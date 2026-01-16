@@ -59,17 +59,10 @@ Create .env file in the project folder:
 
 GEMINI_API_KEY=YOUR_GEMINI_API_KEY
 
-
 Or set manually in Windows PowerShell:
 
 setx GEMINI_API_KEY "YOUR_GEMINI_API_KEY"
-
-
 Restart terminal after setting.
-
-Option 2: Temporary hardcoding (for local testing only, not for GitHub):
-
-API_KEY = "YOUR_GEMINI_API_KEY"
 
 5️⃣ Run the app
 streamlit run app.py
@@ -122,28 +115,5 @@ Displays generated summary
 
 This design abstracts model complexity from the application layer.
 
-✅ Objective
 
-The focus is on:
 
-GenAI usage with LLMs
-
-Pipeline abstraction and modular design
-
-Real-world NLP application
-
-Web app integration
-
-Accuracy at enterprise scale is not the primary goal — the goal is to demonstrate understanding of GenAI pipelines.
-
-✍ Author
-
-Jatin
-
-Aspiring AI/ML Engineer
-
-GenAI & NLP Enthusiast
-
-📄 License
-
-This project is for educational and assessment purposes.
