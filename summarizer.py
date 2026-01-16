@@ -10,7 +10,7 @@ class TextSummarizer:
         self.model_name = model_name
 
         # 👇 Put your key directly here for now
-        API_KEY = "AIzaSyAsNmeDjDRpG04jqZeb8ZsnYSrx4CvOOV0"
+        API_KEY = "Your_key_here"
 
         self.client = genai.Client(api_key=API_KEY)
 
@@ -37,3 +37,4 @@ class TextSummarizer:
         )
 
         return response.text
+
