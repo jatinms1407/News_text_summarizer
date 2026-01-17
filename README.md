@@ -38,39 +38,6 @@ dataset = load_dataset("xsum")
 
 XSUM contains BBC news articles paired with human-written summaries, ideal for evaluating summarization tasks.
 
-⚙️ Setup Instructions
-1️⃣ Clone the repository
-git clone https://github.com/YOUR_USERNAME/text-summarizer-llm.git
-cd text-summarizer-llm
-
-2️⃣ Create virtual environment
-python -m venv venv
-venv\Scripts\activate      # Windows
-source venv/bin/activate   # Linux / Mac
-
-3️⃣ Install dependencies
-pip install -r requirements.txt
-
-4️⃣ Set API Key
-
-Option 1: Environment variable (recommended)
-
-Create .env file in the project folder:
-
-GEMINI_API_KEY=YOUR_GEMINI_API_KEY
-
-Or set manually in Windows PowerShell:
-
-setx GEMINI_API_KEY "YOUR_GEMINI_API_KEY"
-Restart terminal after setting.
-
-5️⃣ Run the app
-streamlit run app.py
-
-
-Open the link provided by Streamlit, usually:
-
-http://localhost:8501
 
 🌐 Public App Link
 
